@@ -12,13 +12,16 @@
         <title>Arithmetic Calculator</title>
     </head>
     <body>
-        <form method="post" action="age">
+        <form method="post" action="arithmetic">
             <h1>Arithmetic Calculator</h1>
             First: <input type="text" name="first" value="${first}"><br>
             Second: <input type="text" name="second" value="${second}"><br>
-            <input type="submit" value="Age next birthday">
+            <input type="submit" name="operation" value="+">
+            <input type="submit" name="operation" value="-">
+            <input type="submit" name="operation" value="*">
+            <input type="submit" name="operation" value="%">
         </form>
-            <p>${message}</p>
+            <p>Result: ${message}</p>
         <a href="/Week3Lab_Calculators/age">Age Calculator</a>
     </body>
 </html>
