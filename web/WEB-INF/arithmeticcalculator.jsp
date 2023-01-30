@@ -22,6 +22,6 @@
             <input type="submit" name="operation" value="%">
         </form>
             <p>Result: ${message}</p>
-        <a href="/Week3Lab_Calculators/age">Age Calculator</a>
+        <a href="age">Age Calculator</a>
     </body>
 </html>
